@@ -5,6 +5,7 @@ import pygame
 #definitions
 #defs
 WIDTH = 800
+Height = 200
 
 #window 
 window = pygame.display.set_mode((WIDTH,WIDTH)) 
