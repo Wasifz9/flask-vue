@@ -22,7 +22,7 @@ def helloworld():
 
 def predWine():
     if request.method == 'GET':
-
+        # features
         a = float(request.args.get('alcohol'))
         b = float(request.args.get('malic_acid'))
         c = float(request.args.get('ash'))
@@ -32,6 +32,7 @@ def predWine():
         g = float(request.args.get('flavanoids'))
         h = float(request.args.get('nonflavanoid_phenols'))
         i = float(request.args.get('proanthocyanins'))
+        i2= float(request.args.get('proanthocyanins2'))
         j = float(request.args.get('color_intensity'))
         k = float(request.args.get('hue'))
         l = float(request.args.get('od315_of_diluted_wines'))
@@ -39,6 +40,7 @@ def predWine():
 
         final_features = ([[a, b, c, d, e, f, g, h, i, j, k, l, m]])
 
+        # model predicition
         prediction = model.predict(final_features)
 
     return jsonify(str("Class  " + str(prediction[0])))
