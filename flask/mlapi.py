@@ -22,7 +22,9 @@ def helloworld():
 
 def predWine():
     if request.method == 'GET':
-
+        #test change
+        # hilarious
+        # haha
         # feature instantiation 
         a = float(request.args.get('alcohol'))
         b = float(request.args.get('malic_acid'))
