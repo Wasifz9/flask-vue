@@ -23,6 +23,7 @@ def helloworld():
 def predWine():
     if request.method == 'GET':
 
+        # feature instantiation 
         a = float(request.args.get('alcohol'))
         b = float(request.args.get('malic_acid'))
         c = float(request.args.get('ash'))
@@ -36,9 +37,11 @@ def predWine():
         k = float(request.args.get('hue'))
         l = float(request.args.get('od315_of_diluted_wines'))
         m = float(request.args.get('proline'))
-
+            
+        # listify features
         final_features = ([[a, b, c, d, e, f, g, h, i, j, k, l, m]])
 
+        # make prediction from model files
         prediction = model.predict(final_features)
 
     return jsonify(str("Class  " + str(prediction[0])))
