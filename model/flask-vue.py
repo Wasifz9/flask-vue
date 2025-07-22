@@ -1,6 +1,5 @@
 import math 
 import pygame
-#import
 
 #definitions
 #def2
@@ -8,7 +7,6 @@ import pygame
 WIDTH = 800
 Height = 200
 
-#window
 #window2
 window = pygame.display.set_mode((WIDTH,WIDTH)) 
 #display
