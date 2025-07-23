@@ -25,7 +25,7 @@ jobs:
 
       - name: Fetch and run checkLogic.mjs
         run: |
-          curl -O https://raw.githubusercontent.com/Abdulnaser97/CodeCanvasScanner/refs/heads/diff-data/main/checkLogic.mjs
+          curl -O https://raw.githubusercontent.com/Abdulnaser97/CodeCanvasScanner/main/main/checkLogic.mjs
           node checkLogic.mjs
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
