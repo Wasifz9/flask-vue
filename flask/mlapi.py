@@ -3,15 +3,14 @@ from flask import Flask, jsonify, request
 from flask_cors import CORS, cross_origin 
 feature_names = ['alcohol', 'malic_acid', 'ash', 'alcalinity_of_ash', 'magnesium', 'total_phenols', 'flavanoids', 'nonflavanoid_phenols', 'proanthocyanins', 'color_intensity', 'hue', 'od280/od315_of_diluted_wines', 'proline']
 
+# Flask App instantaition with CORS!
 app = Flask(__name__)
 cors = CORS(app)
 app.config['CORS_HEADERS'] = 'Content-Type'
 
 model = pickle.load(open('wine_model.pickle', 'rb'))
 
-
-
-
+# Routes
 @app.route("/")
 @cross_origin()
 def helloworld():
