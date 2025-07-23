@@ -1,0 +1,588 @@
+{
+	"drawioXML": "<mxfile>\n  <diagram id=\"eVT-PCIgyBuZRf6nysFr\" name=\"Page-1\">\n    <mxGraphModel dx=\"2909\" dy=\"2351\" grid=\"0\" gridSize=\"10\" guides=\"1\" tooltips=\"1\" connect=\"0\" arrows=\"1\" fold=\"1\" page=\"0\" pageScale=\"1\" pageWidth=\"850\" pageHeight=\"1100\" math=\"0\" shadow=\"0\">\n      <root>\n        <mxCell id=\"0\" />\n        <mxCell id=\"1\" style=\"rounded=1;whiteSpace=wrap;html=1;container=1;glass=0;comic=0;fontSize=9;fontColor=#615B5B;strokeWidth=0.7;strokeColor=#999190;fontFamily=Poppins;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DPoppins;fontStyle=0;align=left;verticalAlign=bottom;spacing=0;spacingTop=-14;spacingLeft=15;arcSize=4;labelPosition=center;verticalLabelPosition=top;;fillColor=#fffefe\" parent=\"0\" />\n        <UserObject label=\"flask\" value=\"flask\" id=\"e1f58d1b-251e-495b-9382-703c9c2235f4\">\n          <mxCell style=\"rounded=1;whiteSpace=wrap;html=1;container=1;glass=0;comic=0;fontSize=40;fontColor=#615B5B;strokeWidth=0.7;strokeColor=#999190;fontFamily=Poppins;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DPoppins;fontStyle=0;align=left;verticalAlign=bottom;spacing=0;spacingTop=-14;spacingLeft=15;arcSize=4;labelPosition=center;verticalLabelPosition=top;;fillColor=#fffefe\" vertex=\"1\" parent=\"1\">\n            <mxGeometry x=\"70\" y=\"70\" width=\"1420\" height=\"504.69947018207546\" as=\"geometry\" />\n          </mxCell>\n        </UserObject>\n        <UserObject label=\"mlapi.py\" value=\"mlapi.py\" id=\"9aa4070b-0566-410e-aaf0-d67003c6b828\">\n          <mxCell style=\"rounded=1;whiteSpace=wrap;html=1;container=1;glass=0;comic=0;fontSize=37;fontColor=#615B5B;strokeWidth=0.7;strokeColor=#999190;fontFamily=Poppins;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DPoppins;fontStyle=0;align=left;verticalAlign=bottom;spacing=0;spacingTop=-14;spacingLeft=15;arcSize=4;labelPosition=center;verticalLabelPosition=top;;fillColor=#f9f3f3\" vertex=\"1\" parent=\"e1f58d1b-251e-495b-9382-703c9c2235f4\">\n            <mxGeometry x=\"70\" y=\"70\" width=\"1280\" height=\"364.69947018207546\" as=\"geometry\" />\n          </mxCell>\n        </UserObject>\n        <UserObject label=\"Initialize Flask App and Load Model - mlapi.py:L12-14\" value=\"Initialize Flask App and Load Model - mlapi.py:L12-14\" id=\"d9e71088-61b4-4721-8ac7-cdefca032027\">\n          <mxCell style=\"rounded=1;whiteSpace=wrap;html=1;container=1;glass=0;comic=0;fontSize=12;fontColor=#615B5B;strokeWidth=0.7;strokeColor=#999190;fontFamily=Poppins;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DPoppins;fontStyle=0;\" vertex=\"1\" parent=\"9aa4070b-0566-410e-aaf0-d67003c6b828\">\n            <mxGeometry x=\"70\" y=\"204.69947018207546\" width=\"180\" height=\"90\" as=\"geometry\" />\n          </mxCell>\n        </UserObject>\n        <UserObject label=\"Parse Query Parameters - mlapi.py:L24-38\" value=\"Parse Query Parameters - mlapi.py:L24-38\" id=\"3d06b7de-fb3d-43c3-a5a2-47064a6ffd45\">\n          <mxCell style=\"rounded=1;whiteSpace=wrap;html=1;container=1;glass=0;comic=0;fontSize=12;fontColor=#615B5B;strokeWidth=0.7;strokeColor=#999190;fontFamily=Poppins;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DPoppins;fontStyle=0;\" vertex=\"1\" parent=\"9aa4070b-0566-410e-aaf0-d67003c6b828\">\n            <mxGeometry x=\"390\" y=\"204.69947018207546\" width=\"180\" height=\"90\" as=\"geometry\" />\n          </mxCell>\n        </UserObject>\n        <UserObject label=\"Model Prediction - mlapi.py:L42\" value=\"Model Prediction - mlapi.py:L42\" id=\"7314c2d7-fdea-4755-b3ef-02a56ba09d2b\">\n          <mxCell style=\"rounded=1;whiteSpace=wrap;html=1;container=1;glass=0;comic=0;fontSize=12;fontColor=#615B5B;strokeWidth=0.7;strokeColor=#999190;fontFamily=Poppins;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DPoppins;fontStyle=0;\" vertex=\"1\" parent=\"9aa4070b-0566-410e-aaf0-d67003c6b828\">\n            <mxGeometry x=\"710\" y=\"200\" width=\"180\" height=\"90\" as=\"geometry\" />\n          </mxCell>\n        </UserObject>\n        <UserObject label=\"Return JSON Response - mlapi.py:L44\" value=\"Return JSON Response - mlapi.py:L44\" id=\"bd2ddb89-a1d9-41f4-989b-772befd21664\">\n          <mxCell style=\"rounded=1;whiteSpace=wrap;html=1;container=1;glass=0;comic=0;fontSize=12;fontColor=#615B5B;strokeWidth=0.7;strokeColor=#999190;fontFamily=Poppins;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DPoppins;fontStyle=0;\" vertex=\"1\" parent=\"9aa4070b-0566-410e-aaf0-d67003c6b828\">\n            <mxGeometry x=\"1030\" y=\"200\" width=\"180\" height=\"90\" as=\"geometry\" />\n          </mxCell>\n        </UserObject>\n        <mxCell id=\"1e1849a8-6967-4a48-a538-0a87fd26daa3\" value=\"API Call:&#xa;GET /wine\" style=\"edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=1;sketch=0;jumpStyle=arc;jumpSize=17;orthogonalLoop=1;jettySize=auto;html=0;shadow=0;labelBackgroundColor=none;fontFamily=Poppins;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DPoppins;fontSize=11;fontColor=#5C5C5C;endArrow=block;endFill=1;endSize=5;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;strokeColor=#A1A1A1;strokeWidth=2;arcSize=50;labelPosition=center;verticalLabelPosition=top;align=center;verticalAlign=bottom;container=1;\" edge=\"1\" parent=\"9aa4070b-0566-410e-aaf0-d67003c6b828\" source=\"d9e71088-61b4-4721-8ac7-cdefca032027\" target=\"3d06b7de-fb3d-43c3-a5a2-47064a6ffd45\">\n          <mxGeometry relative=\"1\" as=\"geometry\">\n            <Array as=\"points\" />\n          </mxGeometry>\n        </mxCell>\n        <mxCell id=\"a55bd01f-f913-4621-b333-3c3854cb6840\" value=\"Data Transformation:&#xa;Assemble Feature&#xa;Vector\" style=\"edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=1;sketch=0;jumpStyle=arc;jumpSize=17;orthogonalLoop=1;jettySize=auto;html=0;shadow=0;labelBackgroundColor=none;fontFamily=Poppins;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DPoppins;fontSize=11;fontColor=#5C5C5C;endArrow=block;endFill=1;endSize=5;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;strokeColor=#A1A1A1;strokeWidth=2;arcSize=50;labelPosition=center;verticalLabelPosition=top;align=center;verticalAlign=bottom;container=1;\" edge=\"1\" parent=\"9aa4070b-0566-410e-aaf0-d67003c6b828\" source=\"3d06b7de-fb3d-43c3-a5a2-47064a6ffd45\" target=\"7314c2d7-fdea-4755-b3ef-02a56ba09d2b\">\n          <mxGeometry relative=\"1\" as=\"geometry\">\n            <Array as=\"points\">\n              <mxPoint x=\"610\" y=\"249.69947018207546\" />\n              <mxPoint x=\"610\" y=\"245\" />\n            </Array>\n          </mxGeometry>\n        </mxCell>\n        <mxCell id=\"4d03ec9b-a66b-4541-ad1a-5e033a0a763c\" value=\"Data Transformation:&#xa;Format Prediction\" style=\"edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=1;sketch=0;jumpStyle=arc;jumpSize=17;orthogonalLoop=1;jettySize=auto;html=0;shadow=0;labelBackgroundColor=none;fontFamily=Poppins;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DPoppins;fontSize=11;fontColor=#5C5C5C;endArrow=block;endFill=1;endSize=5;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;strokeColor=#A1A1A1;strokeWidth=2;arcSize=50;labelPosition=center;verticalLabelPosition=top;align=center;verticalAlign=bottom;container=1;\" edge=\"1\" parent=\"9aa4070b-0566-410e-aaf0-d67003c6b828\" source=\"7314c2d7-fdea-4755-b3ef-02a56ba09d2b\" target=\"bd2ddb89-a1d9-41f4-989b-772befd21664\">\n          <mxGeometry relative=\"1\" as=\"geometry\">\n            <Array as=\"points\" />\n          </mxGeometry>\n        </mxCell>\n        <UserObject label=\"Initialize Flask App and Load Model - mlapi.py:L9-12\" value=\"Initialize Flask App and Load Model - mlapi.py:L9-12\" id=\"2b78e1a6-9e1f-40e9-a693-5b72e9e7201f\">\n          <mxCell style=\"rounded=1;whiteSpace=wrap;html=1;container=1;glass=0;comic=0;fontSize=12;fontColor=#615B5B;strokeWidth=0.7;strokeColor=#999190;fontFamily=Poppins;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DPoppins;fontStyle=0;\" vertex=\"1\" parent=\"9aa4070b-0566-410e-aaf0-d67003c6b828\">\n            <mxGeometry x=\"70\" y=\"72.97705852962184\" width=\"180\" height=\"90\" as=\"geometry\" />\n          </mxCell>\n        </UserObject>\n        <UserObject label=\"Extract and Prepare Features from Request - mlapi.py:L24-39\" value=\"Extract and Prepare Features from Request - mlapi.py:L24-39\" id=\"0bb46209-e3cd-4b52-87b5-c186bfbad117\">\n          <mxCell style=\"rounded=1;whiteSpace=wrap;html=1;container=1;glass=0;comic=0;fontSize=12;fontColor=#615B5B;strokeWidth=0.7;strokeColor=#999190;fontFamily=Poppins;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DPoppins;fontStyle=0;\" vertex=\"1\" parent=\"9aa4070b-0566-410e-aaf0-d67003c6b828\">\n            <mxGeometry x=\"390\" y=\"70\" width=\"180\" height=\"90\" as=\"geometry\" />\n          </mxCell>\n        </UserObject>\n        <UserObject label=\"Perform Wine Class Prediction - mlapi.py:L41\" value=\"Perform Wine Class Prediction - mlapi.py:L41\" id=\"fb2f7997-98cb-4461-ab7c-0f0053055e81\">\n          <mxCell style=\"rounded=1;whiteSpace=wrap;html=1;container=1;glass=0;comic=0;fontSize=12;fontColor=#615B5B;strokeWidth=0.7;strokeColor=#999190;fontFamily=Poppins;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DPoppins;fontStyle=0;\" vertex=\"1\" parent=\"9aa4070b-0566-410e-aaf0-d67003c6b828\">\n            <mxGeometry x=\"710\" y=\"70\" width=\"180\" height=\"90\" as=\"geometry\" />\n          </mxCell>\n        </UserObject>\n        <mxCell id=\"60a2718e-a227-480f-b393-eb8c783b5f3f\" value=\"API Request:&#xa;GET /wine\" style=\"edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=1;sketch=0;jumpStyle=arc;jumpSize=17;orthogonalLoop=1;jettySize=auto;html=0;shadow=0;labelBackgroundColor=none;fontFamily=Poppins;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DPoppins;fontSize=11;fontColor=#5C5C5C;endArrow=block;endFill=1;endSize=5;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;strokeColor=#A1A1A1;strokeWidth=2;arcSize=50;labelPosition=center;verticalLabelPosition=top;align=center;verticalAlign=bottom;container=1;\" edge=\"1\" parent=\"9aa4070b-0566-410e-aaf0-d67003c6b828\" source=\"2b78e1a6-9e1f-40e9-a693-5b72e9e7201f\" target=\"0bb46209-e3cd-4b52-87b5-c186bfbad117\">\n          <mxGeometry relative=\"1\" as=\"geometry\">\n            <Array as=\"points\">\n              <mxPoint x=\"290\" y=\"117.97705852962184\" />\n              <mxPoint x=\"290\" y=\"115\" />\n            </Array>\n          </mxGeometry>\n        </mxCell>\n        <mxCell id=\"9bd0b336-6745-4597-9bd2-19a8b1f5c742\" value=\"Data Transmission:&#xa;Features to&#xa;Predictor\" style=\"edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=1;sketch=0;jumpStyle=arc;jumpSize=17;orthogonalLoop=1;jettySize=auto;html=0;shadow=0;labelBackgroundColor=none;fontFamily=Poppins;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DPoppins;fontSize=12;fontColor=#5C5C5C;endArrow=block;endFill=1;endSize=5;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;strokeColor=#A1A1A1;strokeWidth=2;arcSize=50;labelPosition=center;verticalLabelPosition=top;align=center;verticalAlign=bottom;container=1;\" edge=\"1\" parent=\"9aa4070b-0566-410e-aaf0-d67003c6b828\" source=\"0bb46209-e3cd-4b52-87b5-c186bfbad117\" target=\"fb2f7997-98cb-4461-ab7c-0f0053055e81\">\n          <mxGeometry relative=\"1\" as=\"geometry\">\n            <Array as=\"points\" />\n          </mxGeometry>\n        </mxCell>\n      </root>\n    </mxGraphModel>\n  </diagram>\n</mxfile>\n",
+	"fileName": "",
+	"fileURL": "github",
+	"repoData": {
+		"flask": {
+			"path": "flask",
+			"fileName": "flask",
+			"cellName": "flask",
+			"cellId": "e1f58d1b-251e-495b-9382-703c9c2235f4",
+			"visible": true,
+			"children": [
+				"flask/mlapi.py"
+			]
+		},
+		"flask/mlapi.py": {
+			"path": "flask/mlapi.py",
+			"fileName": "mlapi.py",
+			"cellName": "mlapi.py",
+			"cellId": "9aa4070b-0566-410e-aaf0-d67003c6b828",
+			"visible": true,
+			"parentCellId": "e1f58d1b-251e-495b-9382-703c9c2235f4",
+			"children": [
+				"flask/mlapi.py-simstep-12be3158-7095-487d-a1ee-81ec41469ce2",
+				"flask/mlapi.py-simstep-ab8d7684-de66-4207-a0ca-4c692a3e85d7",
+				"flask/mlapi.py-simstep-2d0f8b52-d5b0-4c94-a943-56c48567116f",
+				"flask/mlapi.py-simstep-7b725033-7d9c-4ca8-9bf0-9d1fbf471504",
+				"flask/mlapi.py-simstep-101d37c6-f872-40e8-a633-b192c4243151",
+				"flask/mlapi.py-simstep-6fda2563-b917-45b5-aadc-220b28361d15",
+				"flask/mlapi.py-simstep-7a44bac3-7d0c-468f-812e-72db40baa085"
+			]
+		},
+		"e1f58d1b-251e-495b-9382-703c9c2235f4": {
+			"path": "e1f58d1b-251e-495b-9382-703c9c2235f4",
+			"cellName": "flask",
+			"cellId": "e1f58d1b-251e-495b-9382-703c9c2235f4",
+			"visible": true
+		},
+		"9aa4070b-0566-410e-aaf0-d67003c6b828": {
+			"path": "9aa4070b-0566-410e-aaf0-d67003c6b828",
+			"cellName": "mlapi.py",
+			"cellId": "9aa4070b-0566-410e-aaf0-d67003c6b828",
+			"visible": true,
+			"parentCellId": "e1f58d1b-251e-495b-9382-703c9c2235f4"
+		},
+		"d9e71088-61b4-4721-8ac7-cdefca032027": {
+			"path": "d9e71088-61b4-4721-8ac7-cdefca032027",
+			"cellName": "Initialize Flask App and Load Model - mlapi.py:L12-14",
+			"cellId": "d9e71088-61b4-4721-8ac7-cdefca032027",
+			"visible": true,
+			"parentCellId": "9aa4070b-0566-410e-aaf0-d67003c6b828"
+		},
+		"flask/mlapi.py-simstep-12be3158-7095-487d-a1ee-81ec41469ce2": {
+			"path": "flask/mlapi.py-simstep-12be3158-7095-487d-a1ee-81ec41469ce2",
+			"fileName": "mlapi.py",
+			"cellName": "Initialize Flask App and Load Model - mlapi.py:L12-14",
+			"cellId": "d9e71088-61b4-4721-8ac7-cdefca032027",
+			"visible": true,
+			"startLine": 12,
+			"endLine": 14,
+			"parentCellId": "9aa4070b-0566-410e-aaf0-d67003c6b828",
+			"parentPath": "flask/mlapi.py"
+		},
+		"3d06b7de-fb3d-43c3-a5a2-47064a6ffd45": {
+			"path": "3d06b7de-fb3d-43c3-a5a2-47064a6ffd45",
+			"cellName": "Parse Query Parameters - mlapi.py:L24-38",
+			"cellId": "3d06b7de-fb3d-43c3-a5a2-47064a6ffd45",
+			"visible": true,
+			"parentCellId": "9aa4070b-0566-410e-aaf0-d67003c6b828"
+		},
+		"flask/mlapi.py-simstep-ab8d7684-de66-4207-a0ca-4c692a3e85d7": {
+			"path": "flask/mlapi.py-simstep-ab8d7684-de66-4207-a0ca-4c692a3e85d7",
+			"fileName": "mlapi.py",
+			"cellName": "Parse Query Parameters - mlapi.py:L24-38",
+			"cellId": "3d06b7de-fb3d-43c3-a5a2-47064a6ffd45",
+			"visible": true,
+			"startLine": 24,
+			"endLine": 38,
+			"parentCellId": "9aa4070b-0566-410e-aaf0-d67003c6b828",
+			"parentPath": "flask/mlapi.py"
+		},
+		"7314c2d7-fdea-4755-b3ef-02a56ba09d2b": {
+			"path": "7314c2d7-fdea-4755-b3ef-02a56ba09d2b",
+			"cellName": "Model Prediction - mlapi.py:L42",
+			"cellId": "7314c2d7-fdea-4755-b3ef-02a56ba09d2b",
+			"visible": true,
+			"parentCellId": "9aa4070b-0566-410e-aaf0-d67003c6b828"
+		},
+		"flask/mlapi.py-simstep-2d0f8b52-d5b0-4c94-a943-56c48567116f": {
+			"path": "flask/mlapi.py-simstep-2d0f8b52-d5b0-4c94-a943-56c48567116f",
+			"fileName": "mlapi.py",
+			"cellName": "Model Prediction - mlapi.py:L42",
+			"cellId": "7314c2d7-fdea-4755-b3ef-02a56ba09d2b",
+			"visible": true,
+			"startLine": 42,
+			"endLine": 42,
+			"parentCellId": "9aa4070b-0566-410e-aaf0-d67003c6b828",
+			"parentPath": "flask/mlapi.py"
+		},
+		"bd2ddb89-a1d9-41f4-989b-772befd21664": {
+			"path": "bd2ddb89-a1d9-41f4-989b-772befd21664",
+			"cellName": "Return JSON Response - mlapi.py:L44",
+			"cellId": "bd2ddb89-a1d9-41f4-989b-772befd21664",
+			"visible": true,
+			"parentCellId": "9aa4070b-0566-410e-aaf0-d67003c6b828"
+		},
+		"flask/mlapi.py-simstep-7b725033-7d9c-4ca8-9bf0-9d1fbf471504": {
+			"path": "flask/mlapi.py-simstep-7b725033-7d9c-4ca8-9bf0-9d1fbf471504",
+			"fileName": "mlapi.py",
+			"cellName": "Return JSON Response - mlapi.py:L44",
+			"cellId": "bd2ddb89-a1d9-41f4-989b-772befd21664",
+			"visible": true,
+			"startLine": 44,
+			"endLine": 44,
+			"parentCellId": "9aa4070b-0566-410e-aaf0-d67003c6b828",
+			"parentPath": "flask/mlapi.py"
+		},
+		"1e1849a8-6967-4a48-a538-0a87fd26daa3": {
+			"path": "1e1849a8-6967-4a48-a538-0a87fd26daa3",
+			"cellName": "API Call:\nGET /wine",
+			"cellId": "1e1849a8-6967-4a48-a538-0a87fd26daa3",
+			"visible": true,
+			"parentCellId": "9aa4070b-0566-410e-aaf0-d67003c6b828"
+		},
+		"generated-edge-simstep-712266c4-c8b2-4feb-9d5a-82aea6b98e3b-1e1849a8-6967-4a48-a538-0a87fd26daa3": {
+			"path": "generated-edge-simstep-712266c4-c8b2-4feb-9d5a-82aea6b98e3b-1e1849a8-6967-4a48-a538-0a87fd26daa3",
+			"cellName": "API Call: GET /wine",
+			"cellId": "1e1849a8-6967-4a48-a538-0a87fd26daa3",
+			"visible": true
+		},
+		"a55bd01f-f913-4621-b333-3c3854cb6840": {
+			"path": "a55bd01f-f913-4621-b333-3c3854cb6840",
+			"cellName": "Data Transformation:\nAssemble Feature\nVector",
+			"cellId": "a55bd01f-f913-4621-b333-3c3854cb6840",
+			"visible": true,
+			"parentCellId": "9aa4070b-0566-410e-aaf0-d67003c6b828"
+		},
+		"generated-edge-simstep-1e17c094-3d84-4d14-b1ef-7e86f9fa8fac-a55bd01f-f913-4621-b333-3c3854cb6840": {
+			"path": "generated-edge-simstep-1e17c094-3d84-4d14-b1ef-7e86f9fa8fac-a55bd01f-f913-4621-b333-3c3854cb6840",
+			"cellName": "Data Transformation: Assemble Feature Vector",
+			"cellId": "a55bd01f-f913-4621-b333-3c3854cb6840",
+			"visible": true
+		},
+		"4d03ec9b-a66b-4541-ad1a-5e033a0a763c": {
+			"path": "4d03ec9b-a66b-4541-ad1a-5e033a0a763c",
+			"cellName": "Data Transformation:\nFormat Prediction",
+			"cellId": "4d03ec9b-a66b-4541-ad1a-5e033a0a763c",
+			"visible": true,
+			"parentCellId": "9aa4070b-0566-410e-aaf0-d67003c6b828"
+		},
+		"generated-edge-simstep-43a49e27-6074-4610-b3d9-8d5128b25e0b-4d03ec9b-a66b-4541-ad1a-5e033a0a763c": {
+			"path": "generated-edge-simstep-43a49e27-6074-4610-b3d9-8d5128b25e0b-4d03ec9b-a66b-4541-ad1a-5e033a0a763c",
+			"cellName": "Data Transformation: Format Prediction",
+			"cellId": "4d03ec9b-a66b-4541-ad1a-5e033a0a763c",
+			"visible": true
+		},
+		"2b78e1a6-9e1f-40e9-a693-5b72e9e7201f": {
+			"path": "2b78e1a6-9e1f-40e9-a693-5b72e9e7201f",
+			"cellName": "Initialize Flask App and Load Model - mlapi.py:L9-12",
+			"cellId": "2b78e1a6-9e1f-40e9-a693-5b72e9e7201f",
+			"visible": true,
+			"parentCellId": "9aa4070b-0566-410e-aaf0-d67003c6b828"
+		},
+		"flask/mlapi.py-simstep-101d37c6-f872-40e8-a633-b192c4243151": {
+			"path": "flask/mlapi.py-simstep-101d37c6-f872-40e8-a633-b192c4243151",
+			"fileName": "mlapi.py",
+			"cellName": "Initialize Flask App and Load Model - mlapi.py:L9-12",
+			"cellId": "2b78e1a6-9e1f-40e9-a693-5b72e9e7201f",
+			"visible": true,
+			"startLine": 9,
+			"endLine": 12,
+			"parentCellId": "9aa4070b-0566-410e-aaf0-d67003c6b828",
+			"parentPath": "flask/mlapi.py"
+		},
+		"0bb46209-e3cd-4b52-87b5-c186bfbad117": {
+			"path": "0bb46209-e3cd-4b52-87b5-c186bfbad117",
+			"cellName": "Extract and Prepare Features from Request - mlapi.py:L24-39",
+			"cellId": "0bb46209-e3cd-4b52-87b5-c186bfbad117",
+			"visible": true,
+			"parentCellId": "9aa4070b-0566-410e-aaf0-d67003c6b828"
+		},
+		"flask/mlapi.py-simstep-6fda2563-b917-45b5-aadc-220b28361d15": {
+			"path": "flask/mlapi.py-simstep-6fda2563-b917-45b5-aadc-220b28361d15",
+			"fileName": "mlapi.py",
+			"cellName": "Extract and Prepare Features from Request - mlapi.py:L24-39",
+			"cellId": "0bb46209-e3cd-4b52-87b5-c186bfbad117",
+			"visible": true,
+			"startLine": 24,
+			"endLine": 39,
+			"parentCellId": "9aa4070b-0566-410e-aaf0-d67003c6b828",
+			"parentPath": "flask/mlapi.py"
+		},
+		"fb2f7997-98cb-4461-ab7c-0f0053055e81": {
+			"path": "fb2f7997-98cb-4461-ab7c-0f0053055e81",
+			"cellName": "Perform Wine Class Prediction - mlapi.py:L41",
+			"cellId": "fb2f7997-98cb-4461-ab7c-0f0053055e81",
+			"visible": true,
+			"parentCellId": "9aa4070b-0566-410e-aaf0-d67003c6b828"
+		},
+		"flask/mlapi.py-simstep-7a44bac3-7d0c-468f-812e-72db40baa085": {
+			"path": "flask/mlapi.py-simstep-7a44bac3-7d0c-468f-812e-72db40baa085",
+			"fileName": "mlapi.py",
+			"cellName": "Perform Wine Class Prediction - mlapi.py:L41",
+			"cellId": "fb2f7997-98cb-4461-ab7c-0f0053055e81",
+			"visible": true,
+			"startLine": 41,
+			"endLine": 41,
+			"parentCellId": "9aa4070b-0566-410e-aaf0-d67003c6b828",
+			"parentPath": "flask/mlapi.py"
+		},
+		"60a2718e-a227-480f-b393-eb8c783b5f3f": {
+			"path": "60a2718e-a227-480f-b393-eb8c783b5f3f",
+			"cellName": "API Request:\nGET /wine",
+			"cellId": "60a2718e-a227-480f-b393-eb8c783b5f3f",
+			"visible": true,
+			"parentCellId": "9aa4070b-0566-410e-aaf0-d67003c6b828"
+		},
+		"generated-edge-simstep-65acbcd3-f006-46c3-b831-b6b6169dbc3d-60a2718e-a227-480f-b393-eb8c783b5f3f": {
+			"path": "generated-edge-simstep-65acbcd3-f006-46c3-b831-b6b6169dbc3d-60a2718e-a227-480f-b393-eb8c783b5f3f",
+			"cellName": "API Request: GET /wine",
+			"cellId": "60a2718e-a227-480f-b393-eb8c783b5f3f",
+			"visible": true
+		},
+		"9bd0b336-6745-4597-9bd2-19a8b1f5c742": {
+			"path": "9bd0b336-6745-4597-9bd2-19a8b1f5c742",
+			"cellName": "Data Transmission:\nFeatures to\nPredictor",
+			"cellId": "9bd0b336-6745-4597-9bd2-19a8b1f5c742",
+			"visible": true,
+			"parentCellId": "9aa4070b-0566-410e-aaf0-d67003c6b828"
+		},
+		"generated-edge-simstep-301822e2-b883-4b7f-bdb2-d76151e18da8-9bd0b336-6745-4597-9bd2-19a8b1f5c742": {
+			"path": "generated-edge-simstep-301822e2-b883-4b7f-bdb2-d76151e18da8-9bd0b336-6745-4597-9bd2-19a8b1f5c742",
+			"cellName": "Data Transmission: Features to Predictor",
+			"cellId": "9bd0b336-6745-4597-9bd2-19a8b1f5c742",
+			"visible": true
+		}
+	},
+	"simulations": {
+		"Predict Wine Class from Chemical Analysis via API": {
+			"name": "Predict Wine Class from Chemical Analysis via API",
+			"simSteps": [
+				{
+					"simStepId": "12be3158-7095-487d-a1ee-81ec41469ce2",
+					"diagramNodeId": "d9e71088-61b4-4721-8ac7-cdefca032027",
+					"simStepLabel": "Initialize Flask App and Load Model",
+					"simStepDescription": "The Flask application is initialized. The pre-trained scikit-learn model `wine_model.pickle` is loaded from the disk into the `model` variable using pickle. This happens once when the application starts.",
+					"isEdge": 0,
+					"sourceCodeMapping": {
+						"filePath": "flask/mlapi.py",
+						"startLine": "12",
+						"endLine": "14",
+						"relevantVariables": [
+							"app",
+							"model",
+							"pickle.load"
+						]
+					},
+					"inputDataExample": "{\"file_path\": \"wine_model.pickle\"}",
+					"outputDataExample": "{\"model_object\": \"<scikit-learn SVC model object>\"}"
+				},
+				{
+					"simStepId": "712266c4-c8b2-4feb-9d5a-82aea6b98e3b",
+					"diagramNodeId": "1e1849a8-6967-4a48-a538-0a87fd26daa3",
+					"simStepLabel": "API Call: GET /wine",
+					"simStepDescription": "An external client sends an HTTP GET request to the `/wine` endpoint with 13 chemical properties as query parameters to get a wine class prediction.",
+					"isEdge": 1,
+					"sourceCodeMapping": {
+						"filePath": "flask/mlapi.py",
+						"startLine": "20",
+						"endLine": "22",
+						"relevantVariables": [
+							"app.route",
+							"predWine"
+						]
+					},
+					"inputDataExample": "{\"method\": \"GET\", \"endpoint\": \"/wine\", \"queryParams\": {\"alcohol\": \"14.23\", \"malic_acid\": \"1.71\", \"ash\": \"2.43\", \"alcalinity_of_ash\": \"15.6\", \"magnesium\": \"127\", \"total_phenols\": \"2.8\", \"flavanoids\": \"3.06\", \"nonflavanoid_phenols\": \"0.28\", \"proanthocyanins\": \"2.29\", \"color_intensity\": \"5.64\", \"hue\": \"1.04\", \"od280/od315_of_diluted_wines\": \"3.92\", \"proline\": \"1065\"}}",
+					"outputDataExample": "{\"method\": \"GET\", \"endpoint\": \"/wine\", \"queryParams\": {\"alcohol\": \"14.23\", \"malic_acid\": \"1.71\", \"ash\": \"2.43\", \"alcalinity_of_ash\": \"15.6\", \"magnesium\": \"127\", \"total_phenols\": \"2.8\", \"flavanoids\": \"3.06\", \"nonflavanoid_phenols\": \"0.28\", \"proanthocyanins\": \"2.29\", \"color_intensity\": \"5.64\", \"hue\": \"1.04\", \"od280/od315_of_diluted_wines\": \"3.92\", \"proline\": \"1065\"}}"
+				},
+				{
+					"simStepId": "ab8d7684-de66-4207-a0ca-4c692a3e85d7",
+					"diagramNodeId": "3d06b7de-fb3d-43c3-a5a2-47064a6ffd45",
+					"simStepLabel": "Parse Query Parameters",
+					"simStepDescription": "The `predWine` function, triggered by the request, extracts the 13 wine characteristic values from the request's query arguments and converts them into floating-point numbers.",
+					"isEdge": 0,
+					"sourceCodeMapping": {
+						"filePath": "flask/mlapi.py",
+						"startLine": "24",
+						"endLine": "38",
+						"relevantVariables": [
+							"request.args.get",
+							"a",
+							"b",
+							"c",
+							"d",
+							"e",
+							"f",
+							"g",
+							"h",
+							"i",
+							"j",
+							"k",
+							"l",
+							"m"
+						]
+					},
+					"inputDataExample": "{\"request.args\": {\"alcohol\": \"14.23\", \"malic_acid\": \"1.71\", \"ash\": \"2.43\", \"alcalinity_of_ash\": \"15.6\", \"magnesium\": \"127\", \"total_phenols\": \"2.8\", \"flavanoids\": \"3.06\", \"nonflavanoid_phenols\": \"0.28\", \"proanthocyanins\": \"2.29\", \"color_intensity\": \"5.64\", \"hue\": \"1.04\", \"od280/od315_of_diluted_wines\": \"3.92\", \"proline\": \"1065\"}}",
+					"outputDataExample": "{\"a\": 14.23, \"b\": 1.71, \"c\": 2.43, \"d\": 15.6, \"e\": 127.0, \"f\": 2.8, \"g\": 3.06, \"h\": 0.28, \"i\": 2.29, \"j\": 5.64, \"k\": 1.04, \"l\": 3.92, \"m\": 1065.0}"
+				},
+				{
+					"simStepId": "1e17c094-3d84-4d14-b1ef-7e86f9fa8fac",
+					"diagramNodeId": "a55bd01f-f913-4621-b333-3c3854cb6840",
+					"simStepLabel": "Data Transformation: Assemble Feature Vector",
+					"simStepDescription": "The 13 extracted float values are assembled into a 2D list, `final_features`, which is the format required by the scikit-learn model's `predict` method.",
+					"isEdge": 1,
+					"sourceCodeMapping": {
+						"filePath": "flask/mlapi.py",
+						"startLine": "40",
+						"endLine": "40",
+						"relevantVariables": [
+							"final_features"
+						]
+					},
+					"inputDataExample": "{\"a\": 14.23, \"b\": 1.71, \"c\": 2.43, \"d\": 15.6, \"e\": 127.0, \"f\": 2.8, \"g\": 3.06, \"h\": 0.28, \"i\": 2.29, \"j\": 5.64, \"k\": 1.04, \"l\": 3.92, \"m\": 1065.0}",
+					"outputDataExample": "{\"final_features\": [[14.23, 1.71, 2.43, 15.6, 127.0, 2.8, 3.06, 0.28, 2.29, 5.64, 1.04, 3.92, 1065.0]]}"
+				},
+				{
+					"simStepId": "2d0f8b52-d5b0-4c94-a943-56c48567116f",
+					"diagramNodeId": "7314c2d7-fdea-4755-b3ef-02a56ba09d2b",
+					"simStepLabel": "Model Prediction",
+					"simStepDescription": "The `predict` method of the loaded model is called with the `final_features` data. The model uses the input features to classify the wine and returns the predicted class.",
+					"isEdge": 0,
+					"sourceCodeMapping": {
+						"filePath": "flask/mlapi.py",
+						"startLine": "42",
+						"endLine": "42",
+						"relevantVariables": [
+							"model.predict",
+							"prediction"
+						]
+					},
+					"inputDataExample": "{\"final_features\": [[14.23, 1.71, 2.43, 15.6, 127.0, 2.8, 3.06, 0.28, 2.29, 5.64, 1.04, 3.92, 1065.0]]}",
+					"outputDataExample": "{\"prediction\": [0]}"
+				},
+				{
+					"simStepId": "43a49e27-6074-4610-b3d9-8d5128b25e0b",
+					"diagramNodeId": "4d03ec9b-a66b-4541-ad1a-5e033a0a763c",
+					"simStepLabel": "Data Transformation: Format Prediction",
+					"simStepDescription": "The prediction result, which is an array containing the class index, is converted into a human-readable string.",
+					"isEdge": 1,
+					"sourceCodeMapping": {
+						"filePath": "flask/mlapi.py",
+						"startLine": "44",
+						"endLine": "44",
+						"relevantVariables": [
+							"prediction"
+						]
+					},
+					"inputDataExample": "{\"prediction\": [0]}",
+					"outputDataExample": "{\"formatted_prediction\": \"Class  0\"}"
+				},
+				{
+					"simStepId": "7b725033-7d9c-4ca8-9bf0-9d1fbf471504",
+					"diagramNodeId": "bd2ddb89-a1d9-41f4-989b-772befd21664",
+					"simStepLabel": "Return JSON Response",
+					"simStepDescription": "The formatted string is passed to Flask's `jsonify` function, which creates an HTTP response object with the content type 'application/json'. This response is sent back to the client.",
+					"isEdge": 0,
+					"sourceCodeMapping": {
+						"filePath": "flask/mlapi.py",
+						"startLine": "44",
+						"endLine": "44",
+						"relevantVariables": [
+							"jsonify"
+						]
+					},
+					"inputDataExample": "{\"formatted_prediction\": \"Class  0\"}",
+					"outputDataExample": "{\"http_response\": {\"body\": \"\\\"Class  0\\\"\", \"status_code\": 200, \"headers\": {\"Content-Type\": \"application/json\"}}}"
+				}
+			],
+			"description": "<ul><li>This is the primary use case of the application, providing direct business value</li><li>- Exposes a REST API endpoint (<code>/wine</code>) using Flask to receive wine characteristics</li><li>- Accepts 13 chemical and physical properties (e</li><li>g</li><li>, 'alcohol', 'malic_acid') as GET query parameters</li><li>- Loads a pre-trained scikit-learn model (<code>wine_model</li><li>pickle</code>) from disk</li><li>- Uses the model to predict the wine class based on the input features and returns the classification result as a JSON response</li></ul>",
+			"simulationNodesAndEdges": {
+				"d9e71088-61b4-4721-8ac7-cdefca032027": {
+					"simStepIds": [
+						"12be3158-7095-487d-a1ee-81ec41469ce2"
+					]
+				},
+				"3d06b7de-fb3d-43c3-a5a2-47064a6ffd45": {
+					"simStepIds": [
+						"ab8d7684-de66-4207-a0ca-4c692a3e85d7"
+					]
+				},
+				"7314c2d7-fdea-4755-b3ef-02a56ba09d2b": {
+					"simStepIds": [
+						"2d0f8b52-d5b0-4c94-a943-56c48567116f"
+					]
+				},
+				"bd2ddb89-a1d9-41f4-989b-772befd21664": {
+					"simStepIds": [
+						"7b725033-7d9c-4ca8-9bf0-9d1fbf471504"
+					]
+				},
+				"1e1849a8-6967-4a48-a538-0a87fd26daa3": {
+					"simStepIds": [
+						"712266c4-c8b2-4feb-9d5a-82aea6b98e3b"
+					]
+				},
+				"a55bd01f-f913-4621-b333-3c3854cb6840": {
+					"simStepIds": [
+						"1e17c094-3d84-4d14-b1ef-7e86f9fa8fac"
+					]
+				},
+				"4d03ec9b-a66b-4541-ad1a-5e033a0a763c": {
+					"simStepIds": [
+						"43a49e27-6074-4610-b3d9-8d5128b25e0b"
+					]
+				}
+			},
+			"isAIGenerated": true,
+			"keywords": "predict, predWine, /wine"
+		},
+		"Train and Serialize the Wine Classification Model": {
+			"name": "Train and Serialize the Wine Classification Model",
+			"simSteps": [],
+			"description": "<ul><li>This is the foundational data science process that creates the core asset for the prediction service</li><li>- Uses the scikit-learn <code>wine</code> dataset for training and evaluation, as seen in the Jupyter notebook (<code>model/flask-vue</li><li>ipynb</code>)</li><li>- Employs a Gaussian Naive Bayes classifier (<code>sklearn</li><li>naive_bayes</li><li>GaussianNB</code>) to learn the relationship between wine features and classes</li><li>- Splits the data into training and testing sets to validate the model's accuracy</li><li>- Serializes (pickles) the trained model object to a file (<code>wine_model</li><li>pickle</code>) so it can be deployed and used by the Flask API</li></ul>",
+			"simulationNodesAndEdges": {},
+			"isAIGenerated": true,
+			"keywords": "GaussianNB, fit, to_pickle"
+		},
+		"Provide a Web-Based User Interface for Wine Prediction": {
+			"name": "Provide a Web-Based User Interface for Wine Prediction",
+			"simSteps": [
+				{
+					"simStepId": "101d37c6-f872-40e8-a633-b192c4243151",
+					"diagramNodeId": "2b78e1a6-9e1f-40e9-a693-5b72e9e7201f",
+					"simStepLabel": "Initialize Flask App and Load Model",
+					"simStepDescription": "At startup, the Flask application is created and configured for CORS to allow requests from the Vue.js frontend. The pre-trained wine classification model is loaded from a pickle file into memory, making it ready to handle prediction requests.",
+					"isEdge": 0,
+					"sourceCodeMapping": {
+						"filePath": "flask/mlapi.py",
+						"startLine": "9",
+						"endLine": "12",
+						"relevantVariables": [
+							"app",
+							"CORS",
+							"model",
+							"pickle.load"
+						]
+					},
+					"inputDataExample": "null",
+					"outputDataExample": "{\"status\": \"Flask app and model ready\"}"
+				},
+				{
+					"simStepId": "65acbcd3-f006-46c3-b831-b6b6169dbc3d",
+					"diagramNodeId": "60a2718e-a227-480f-b393-eb8c783b5f3f",
+					"simStepLabel": "API Request: GET /wine",
+					"simStepDescription": "The application receives an incoming HTTP GET request at the `/wine` endpoint, which is triggered by the user submitting the form in the Vue.js frontend. The request includes 13 wine characteristics as URL query parameters, invoking the `predWine` function.",
+					"isEdge": 1,
+					"sourceCodeMapping": {
+						"filePath": "flask/mlapi.py",
+						"startLine": "21",
+						"endLine": "23",
+						"relevantVariables": [
+							"app.route",
+							"predWine"
+						]
+					},
+					"inputDataExample": "{\"endpoint\": \"/wine\", \"method\": \"GET\", \"args\": {\"alcohol\": 14.23, \"malic_acid\": 1.71, \"ash\": 2.43, \"alcalinity_of_ash\": 15.6, \"magnesium\": 127.0, \"total_phenols\": 2.8, \"flavanoids\": 3.06, \"nonflavanoid_phenols\": 0.28, \"proanthocyanins\": 2.29, \"color_intensity\": 5.64, \"hue\": 1.04, \"od315_of_diluted_wines\": 3.92, \"proline\": 1065.0}}",
+					"outputDataExample": "{\"endpoint\": \"/wine\", \"method\": \"GET\", \"args\": {\"alcohol\": 14.23, \"malic_acid\": 1.71, \"ash\": 2.43, \"alcalinity_of_ash\": 15.6, \"magnesium\": 127.0, \"total_phenols\": 2.8, \"flavanoids\": 3.06, \"nonflavanoid_phenols\": 0.28, \"proanthocyanins\": 2.29, \"color_intensity\": 5.64, \"hue\": 1.04, \"od315_of_diluted_wines\": 3.92, \"proline\": 1065.0}}"
+				},
+				{
+					"simStepId": "6fda2563-b917-45b5-aadc-220b28361d15",
+					"diagramNodeId": "0bb46209-e3cd-4b52-87b5-c186bfbad117",
+					"simStepLabel": "Extract and Prepare Features from Request",
+					"simStepDescription": "The `predWine` function handles the incoming GET request. It extracts each of the 13 wine attributes from the request's query parameters. Each value is converted to a float and then assembled into a 2D list (`final_features`) suitable for the model's prediction method.",
+					"isEdge": 0,
+					"sourceCodeMapping": {
+						"filePath": "flask/mlapi.py",
+						"startLine": "24",
+						"endLine": "39",
+						"relevantVariables": [
+							"request.args.get",
+							"float",
+							"final_features"
+						]
+					},
+					"inputDataExample": "{\"request.args\": {\"alcohol\": \"14.23\", \"malic_acid\": \"1.71\", \"ash\": \"2.43\", \"alcalinity_of_ash\": \"15.6\", \"magnesium\": \"127.0\", \"total_phenols\": \"2.8\", \"flavanoids\": \"3.06\", \"nonflavanoid_phenols\": \"0.28\", \"proanthocyanins\": \"2.29\", \"color_intensity\": \"5.64\", \"hue\": \"1.04\", \"od315_of_diluted_wines\": \"3.92\", \"proline\": \"1065.0\"}}",
+					"outputDataExample": "{\"final_features\": [[14.23, 1.71, 2.43, 15.6, 127.0, 2.8, 3.06, 0.28, 2.29, 5.64, 1.04, 3.92, 1065.0]]}"
+				},
+				{
+					"simStepId": "301822e2-b883-4b7f-bdb2-d76151e18da8",
+					"diagramNodeId": "9bd0b336-6745-4597-9bd2-19a8b1f5c742",
+					"simStepLabel": "Data Transmission: Features to Predictor",
+					"simStepDescription": "The prepared 2D list of features (`final_features`) is passed as an argument to the `predict` method of the machine learning model.",
+					"isEdge": 1,
+					"sourceCodeMapping": {
+						"filePath": "flask/mlapi.py",
+						"startLine": "41",
+						"endLine": "41",
+						"relevantVariables": [
+							"model.predict"
+						]
+					},
+					"inputDataExample": "{\"final_features\": [[14.23, 1.71, 2.43, 15.6, 127.0, 2.8, 3.06, 0.28, 2.29, 5.64, 1.04, 3.92, 1065.0]]}",
+					"outputDataExample": "{\"final_features\": [[14.23, 1.71, 2.43, 15.6, 127.0, 2.8, 3.06, 0.28, 2.29, 5.64, 1.04, 3.92, 1065.0]]}"
+				},
+				{
+					"simStepId": "7a44bac3-7d0c-468f-812e-72db40baa085",
+					"diagramNodeId": "fb2f7997-98cb-4461-ab7c-0f0053055e81",
+					"simStepLabel": "Perform Wine Class Prediction",
+					"simStepDescription": "The `predict` method of the loaded scikit-learn model processes the input features and computes the predicted class for the wine. The result is stored in the `prediction` variable. The returned value is typically an array containing the predicted class index (e.g., 0, 1, or 2).",
+					"isEdge": 0,
+					"sourceCodeMapping": {
+						"filePath": "flask/mlapi.py",
+						"startLine": "41",
+						"endLine": "41",
+						"relevantVariables": [
+							"model.predict",
+							"prediction"
+						]
+					},
+					"inputDataExample": "{\"final_features\": [[14.23, 1.71, 2.43, 15.6, 127.0, 2.8, 3.06, 0.28, 2.29, 5.64, 1.04, 3.92, 1065.0]]}",
+					"outputDataExample": "{\"prediction\": [0]}"
+				}
+			],
+			"description": "<ul><li>This use case is inferred from the project structure and backend configuration, representing the user-facing part of the application</li><li>- A Vue</li><li>js frontend (inferred from the <code>vue/vueml</code> directory) is intended to provide a user-friendly interface</li><li>- The user would enter the 13 wine characteristics into a web form</li><li>- The frontend sends an API request to the Flask backend's <code>/wine</code> endpoint, which is enabled by the <code>Flask-Cors</code> configuration in <code>flask/mlapi</li><li>py</code></li><li>- The prediction result returned by the API is then displayed back to the user on the web page</li></ul>",
+			"simulationNodesAndEdges": {
+				"2b78e1a6-9e1f-40e9-a693-5b72e9e7201f": {
+					"simStepIds": [
+						"101d37c6-f872-40e8-a633-b192c4243151"
+					]
+				},
+				"0bb46209-e3cd-4b52-87b5-c186bfbad117": {
+					"simStepIds": [
+						"6fda2563-b917-45b5-aadc-220b28361d15"
+					]
+				},
+				"fb2f7997-98cb-4461-ab7c-0f0053055e81": {
+					"simStepIds": [
+						"7a44bac3-7d0c-468f-812e-72db40baa085"
+					]
+				},
+				"60a2718e-a227-480f-b393-eb8c783b5f3f": {
+					"simStepIds": [
+						"65acbcd3-f006-46c3-b831-b6b6169dbc3d"
+					]
+				},
+				"9bd0b336-6745-4597-9bd2-19a8b1f5c742": {
+					"simStepIds": [
+						"301822e2-b883-4b7f-bdb2-d76151e18da8"
+					]
+				}
+			},
+			"isAIGenerated": true,
+			"keywords": "vue, CORS, flask-vue"
+		},
+		"Serve a RESTful API for Machine Learning Predictions": {
+			"name": "Serve a RESTful API for Machine Learning Predictions",
+			"simSteps": [],
+			"description": "<ul><li>This describes the general backend functionality that makes the ML model accessible over the network</li><li>- Uses the Flask web framework to create and run a web server (<code>flask/app</li><li>py</code> in venv, <code>flask/mlapi</li><li>py</code>)</li><li>- Defines routes (<code>@app</li><li>route</code>) to handle incoming HTTP requests to specific endpoints like <code>/wine</code></li><li>- Parses request parameters from the URL to be used as input for the model</li><li>- Formats the prediction output from the model into a standard JSON response using <code>jsonify</code></li></ul>",
+			"simulationNodesAndEdges": {},
+			"isAIGenerated": true,
+			"keywords": "Flask, app.route, jsonify"
+		},
+		"Prepare and Split Data for Model Training and Evaluation": {
+			"name": "Prepare and Split Data for Model Training and Evaluation",
+			"simSteps": [],
+			"description": "<ul><li>This is a crucial preliminary step within the model training use case, essential for building a reliable model</li><li>- Loads a standard dataset (<code>datasets</li><li>load_wine</code>) which includes both features and target labels</li><li>- Identifies the 13 specific features required for the model, as defined in the notebook and hardcoded in the API</li><li>- Splits the dataset into separate training and testing sets using <code>train_test_split</code> to allow for unbiased evaluation of the model's performance on unseen data</li></ul>",
+			"simulationNodesAndEdges": {},
+			"isAIGenerated": true,
+			"keywords": "load_wine, train_test_split, feature_names"
+		}
+	},
+	"cellToPath": {
+		"e1f58d1b-251e-495b-9382-703c9c2235f4": "flask",
+		"9aa4070b-0566-410e-aaf0-d67003c6b828": "flask/mlapi.py",
+		"d9e71088-61b4-4721-8ac7-cdefca032027": "flask/mlapi.py-simstep-12be3158-7095-487d-a1ee-81ec41469ce2",
+		"3d06b7de-fb3d-43c3-a5a2-47064a6ffd45": "flask/mlapi.py-simstep-ab8d7684-de66-4207-a0ca-4c692a3e85d7",
+		"7314c2d7-fdea-4755-b3ef-02a56ba09d2b": "flask/mlapi.py-simstep-2d0f8b52-d5b0-4c94-a943-56c48567116f",
+		"bd2ddb89-a1d9-41f4-989b-772befd21664": "flask/mlapi.py-simstep-7b725033-7d9c-4ca8-9bf0-9d1fbf471504",
+		"1e1849a8-6967-4a48-a538-0a87fd26daa3": "generated-edge-simstep-712266c4-c8b2-4feb-9d5a-82aea6b98e3b-1e1849a8-6967-4a48-a538-0a87fd26daa3",
+		"a55bd01f-f913-4621-b333-3c3854cb6840": "generated-edge-simstep-1e17c094-3d84-4d14-b1ef-7e86f9fa8fac-a55bd01f-f913-4621-b333-3c3854cb6840",
+		"4d03ec9b-a66b-4541-ad1a-5e033a0a763c": "generated-edge-simstep-43a49e27-6074-4610-b3d9-8d5128b25e0b-4d03ec9b-a66b-4541-ad1a-5e033a0a763c",
+		"2b78e1a6-9e1f-40e9-a693-5b72e9e7201f": "flask/mlapi.py-simstep-101d37c6-f872-40e8-a633-b192c4243151",
+		"0bb46209-e3cd-4b52-87b5-c186bfbad117": "flask/mlapi.py-simstep-6fda2563-b917-45b5-aadc-220b28361d15",
+		"fb2f7997-98cb-4461-ab7c-0f0053055e81": "flask/mlapi.py-simstep-7a44bac3-7d0c-468f-812e-72db40baa085",
+		"60a2718e-a227-480f-b393-eb8c783b5f3f": "generated-edge-simstep-65acbcd3-f006-46c3-b831-b6b6169dbc3d-60a2718e-a227-480f-b393-eb8c783b5f3f",
+		"9bd0b336-6745-4597-9bd2-19a8b1f5c742": "generated-edge-simstep-301822e2-b883-4b7f-bdb2-d76151e18da8-9bd0b336-6745-4597-9bd2-19a8b1f5c742"
+	}
+}
